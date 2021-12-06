@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sqlite">
+    package="com.example.sqflite">
    <application
-        android:label="sqlite"
+        android:label="sqflite"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

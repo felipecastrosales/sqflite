@@ -1,4 +1,4 @@
-# sqlite
+# sqflite
 
 A new Flutter project.
 

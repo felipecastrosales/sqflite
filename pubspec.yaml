@@ -1,4 +1,4 @@
-name: sqlite
+name: sqflite
 description: SQLite with sqflite.
 publish_to: 'none'
 version: 1.0.0+1
