@@ -2,6 +2,8 @@
     package="com.example.sqflite">
    <application
         android:label="sqflite"
+        android.allowBackup="false"
+        android.fullBackupOnly="false"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
