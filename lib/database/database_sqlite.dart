@@ -2,7 +2,7 @@ import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
 class DatabaseSqLite {
-  Future<void> oppenConnection() async {
+  Future<Database> oppenConnection() async {
     final databasePath = await getDatabasesPath();
     final databaseFinalPath = join(
       databasePath,
@@ -11,7 +11,8 @@ class DatabaseSqLite {
 
     print(databasePath);
     print(databaseFinalPath);
-    await openDatabase(
+
+    return await openDatabase(
       databaseFinalPath,
       version: 2,
       onConfigure: (db) async {
